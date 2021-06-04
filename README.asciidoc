@@ -62,3 +62,14 @@ For the real robot, after installing the cross compilation tool and cross-compil
  $ cmake -DCMAKE_TOOLCHAIN_FILE=../src/cmake/TargetEPuck.cmake ../src
  $ make
  $ sudo make install
+
+Compiling for the argos3-arena
+++++++++++++++++++++++++
+
+
+ $ cd argos3-arena
+ $ mkdir build_simulator
+ $ cd build_simulator
+ $ cmake ../src
+ $ make
+ $ sudo make install
