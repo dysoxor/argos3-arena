@@ -1,4 +1,3 @@
-# argos3-arena
 ARGoS-Epuck README
 ===================
 :Author: Lorenzo Garattoni
